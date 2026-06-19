@@ -1,0 +1,63 @@
+{
+  "model": "GradientBoostingClassifier (tuned)",
+  "best_params": {
+    "classifier__learning_rate": 0.05,
+    "classifier__max_depth": 3,
+    "classifier__n_estimators": 100,
+    "classifier__subsample": 0.8
+  },
+  "cv_auc": 0.8501,
+  "test_metrics": {
+    "Accuracy": 0.8041,
+    "Precision": 0.6725,
+    "Recall": 0.5107,
+    "F1": 0.5805,
+    "ROC-AUC": 0.8467
+  },
+  "feature_names": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "PaperlessBilling",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaymentMethod"
+  ],
+  "numeric_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "binary_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "PaperlessBilling"
+  ],
+  "nominal_features": [
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaymentMethod"
+  ]
+}

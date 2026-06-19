@@ -1,0 +1,16 @@
+{
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "llm_model": "google/flan-t5-base",
+  "chunk_size": 512,
+  "chunk_overlap": 64,
+  "retriever_k": 4,
+  "memory_k": 5,
+  "faiss_path": "vectorstore\\faiss_index",
+  "wiki_topics": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Deep Learning",
+    "Transformer (machine learning model)"
+  ]
+}
