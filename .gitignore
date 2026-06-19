@@ -1,5 +1,4 @@
 # API Keys & Secrets
-.env
 *.env
 secrets.json
 kaggle.json
@@ -44,3 +43,5 @@ Thumbs.db
 # Logs & Outputs
 *.log
 *.png
+config.bat
+node_modules
